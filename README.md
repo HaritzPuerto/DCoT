@@ -1,4 +1,4 @@
-> The output data is available at (in an anonymous fashion) at https://figshare.com/s/23463d715d6001627332
+> The output data is available at (in an anonymous fashion) at https://figshare.com/s/a498c34c3200a14c6e45
 
 - This data includes prompts, model responses, post-processes responses, and results.
 
@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 
 2. Download the training data
-> Link to the input data https://figshare.com/s/ec0249df13f7b1fc69c3
+> Link to the input data https://figshare.com/s/995e234cdfa5092749ab
 - This zip files includes training, dev, test sets and our **DCoT dataset.**
 - Create a folder called `data` and download the contents of this link in that folder
 ## Usage
