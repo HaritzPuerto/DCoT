@@ -45,6 +45,8 @@ $ python evaluation.py \
 ### Remarks on Phi 1.5 and 2
 vLLM is not compatible with Phi 1.5 and Phi 2 with lora. Therefore, to evaluate with lora you need to merge the lora weights on the base model first. See `merge_weights.py` to see how to do it. Then, you can run the evaluation as follows
 
+
+
 ```bash
 $ python evaluation.py \
     --base_model_path YOUR_PATH_TO_PHI_MERGED_MODEL \
@@ -52,6 +54,11 @@ $ python evaluation.py \
     --min_cots 1 \
     --max_cots 4 \
 ```
+
+
+# Output Inspection
+You can see some output samples manually analyzed in `dcot_samples.json`
+
 
 ## Disclaimer
 
