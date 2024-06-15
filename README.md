@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 
 2. Download the training data
-> Link to the input data https://figshare.com/s/9b8c1abf685543846461
+> Link to the input data https://figshare.com/s/ec0249df13f7b1fc69c3
 - This zip files includes training, dev, test sets and our **DCoT dataset.**
 - Create a folder called `data` and download the contents of this link in that folder
 ## Usage
